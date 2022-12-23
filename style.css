@@ -1,0 +1,255 @@
+body{
+    background-color: rgb(193, 226, 226);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header section Start */
+.main-header{
+    background-color: blue;
+}
+/* first section design start */
+
+.nav-item{
+    list-style: none;
+    display: flex;
+    margin-left: 13rem;
+
+}
+.list-item{
+    margin-top: 40px;
+    font-size: 17px;
+}
+.nav-item a{   
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.nav-section{
+    display: flex;
+}
+.login-design button{
+    margin-top: 50px;
+    margin-left: 20rem;
+    color: white;
+    background-color:rgb(243, 7, 113) ;
+    padding: 10px 20px 10px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(243, 7, 113);
+}
+
+/* first section design end */
+
+/* second section design start */
+.second-header{
+    margin-left: 15rem;
+    margin-top: 5rem;
+    display: flex;
+}
+
+.left-section h1{
+    font-size: 50px;
+    color: white;
+}
+.design-button{
+    color: white;
+    background-color: rgb(243, 7, 113);
+    padding: 10px 35px 10px 30px ;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(243, 7, 113);    
+}
+.right-section img{
+   margin-left: 10rem !important;
+   margin-top: 40px;
+}
+/* second section design end */
+@media screen and (max-width:600px) {
+    
+}        
+/* Header section End */
+/* main section */
+
+/* First section design start */
+
+ .all-players{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    background-color: white;
+    width: 280px;
+    height: 380px;
+    margin-top: 40px;
+}
+.Messi{
+    background-color: white;
+    height: 380px;
+    width: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Ronaldo{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Paulo{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Mesut{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Mauro{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Dimaria{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Kylian{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Salah{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Harry{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Kevin{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Phillippe{
+    background-color: white;
+    height: 380px;
+    width: 280px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.all-players img{
+    height: 200px;
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.all-players h1{
+    font-size: 20px;  
+    margin-left: 10px; 
+    color: rgb(97, 23, 224);
+}
+.all-players p{
+    width: 80%;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:600px) {
+    .all-players{
+        display: grid;
+        grid-template-columns: repeat(4,3fr);
+    }
+}   
+/* first section design End */
+
+/* Second section design start */
+.second-section{
+    display: flex;
+}
+.left-side h1{
+    margin-top: 85rem;
+    margin-left: 200px;
+    font-size: 50px;
+    color: rgb(243, 7, 113);
+    text-align: bold;
+}
+.left-side p{
+    margin-left: 200px;
+    width: 50%;
+    font-size: 15px;
+}
+.left-side button{
+    margin-left: 200px;
+    color: white;
+    background-color: rgb(8, 74, 216);
+    padding: 10px 35px 10px 30px ;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(19, 7, 243)
+
+}
+.right-side img{
+    height: 350px;
+    width: 450px;
+    margin-top: 87rem;
+    margin-right: 200px;
+    border: 3px solid blue;
+}
+
+/* Second section design End */
+/* Third section design Start */
+.design-highlight{
+   font-size: 40px;
+   color: blue;
+   margin-top: 100px;
+   margin-left: 30px;
+}
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(3,4fr); 
+    margin-left: 60px;
+}
+.third-section img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.third-section p{
+    margin-left: 10px;
+}
+
+/* Third section design End */
+
+/* footer section design start */
+.footer-section{
+   text-align: center;
+}
+.footer-first{
+    display: flex;
+    margin-left:38rem ;
+}
+.footer-first img{
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+}
+.footer-first h2{
+    margin-top: 150px;
+    font-style: italic;
+    color: rgb(97, 152, 235);
+}
+/* footer section design end */
+
